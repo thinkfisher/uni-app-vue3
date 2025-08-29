@@ -1,0 +1,48 @@
+// 定义全局样式变量
+$u-primary: #007aff;
+$u-primary-dark: darken($u-primary, 10%);
+$u-primary-disabled: lighten($u-primary, 20%);
+$u-primary-light: lighten($u-primary, 30%);
+
+$u-success: #19be6b;
+$u-success-dark: darken($u-success, 10%);
+$u-success-disabled: lighten($u-success, 20%);
+$u-success-light: lighten($u-success, 30%);
+
+$u-warning: #ff9900;
+$u-warning-dark: darken($u-warning, 10%);
+$u-warning-disabled: lighten($u-warning, 20%);
+$u-warning-light: lighten($u-warning, 30%);
+
+$u-error: #fa3534;
+$u-error-dark: darken($u-error, 10%);
+$u-error-disabled: lighten($u-error, 20%);
+$u-error-light: lighten($u-error, 30%);
+
+$u-info: #909399;
+$u-info-dark: darken($u-info, 10%);
+$u-info-disabled: lighten($u-info, 20%);
+$u-info-light: lighten($u-info, 30%);
+
+// 主题色
+$u-main-color: #303133;
+$u-content-color: #606266;
+$u-tips-color: #909399;
+$u-light-color: #c0c4cc;
+
+// 边框颜色
+$u-border-color: #dcdfe6;
+$u-bg-color: #f3f4f6;
+
+// 导入uview-plus样式
+@import 'uview-plus/theme.scss';
+
+// 字体大小
+$u-font-size-base: 28rpx;
+$u-font-size-sm: 24rpx;
+$u-font-size-lg: 32rpx;
+
+// 间距
+$u-padding-base: 20rpx;
+$u-padding-sm: 16rpx;
+$u-padding-lg: 24rpx;

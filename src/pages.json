@@ -1,0 +1,145 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue" 
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "微信授权",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "列表",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/form/form",
+			"style": {
+				"navigationBarTitleText": "表单提交",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/statistics/statistics",
+			"style": {
+				"navigationBarTitleText": "数据统计",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/location/index",
+			"style": {
+				"navigationBarTitleText": "我的位置",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "移动端脚手架",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.svg",
+				"selectedIconPath": "static/images/home-active.svg",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"iconPath": "static/images/list.svg",
+				"selectedIconPath": "static/images/list-active.svg",
+				"text": "列表"
+			},
+			{
+				"pagePath": "pages/statistics/statistics",
+				"iconPath": "static/images/statis.svg",
+				"selectedIconPath": "static/images/statis-active.svg",
+				"text": "统计"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/images/user.svg",
+				"selectedIconPath": "static/images/user-active.svg",
+				"text": "我的"
+			}
+		]
+	},
+	"usingComponents": {
+		"uni-search-bar": "@dcloudio/uni-ui/lib/uni-search-bar/uni-search-bar",
+		"uni-data-select": "@dcloudio/uni-ui/lib/uni-data-select/uni-data-select",
+		"uni-segmented-control": "@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control",
+		"u-button": "uview-plus/components/u-button/u-button",
+		"u-input": "uview-plus/components/u-input/u-input",
+		"u-form": "uview-plus/components/u-form/u-form",
+		"u-form-item": "uview-plus/components/u-form-item/u-form-item",
+		"u-text": "uview-plus/components/u-text/u-text",
+		"u-image": "uview-plus/components/u-image/u-image",
+		"u-icon": "uview-plus/components/u-icon/u-icon",
+		"u-navbar": "uview-plus/components/u-navbar/u-navbar",
+		"u-swiper": "uview-plus/components/u-swiper/u-swiper",
+		"u-checkbox": "uview-plus/components/u-checkbox/u-checkbox",
+		"u-tag": "uview-plus/components/u-tag/u-tag",
+		"u-avatar": "uview-plus/components/u-avatar/u-avatar",
+		"u-cell": "uview-plus/components/u-cell/u-cell",
+		"u-cell-group": "uview-plus/components/u-cell-group/u-cell-group",
+		"u-picker": "uview-plus/components/u-picker/u-picker",
+		"u-radio": "uview-plus/components/u-radio/u-radio",
+		"u-radio-group": "uview-plus/components/u-radio-group/u-radio-group",
+		"u-textarea": "uview-plus/components/u-textarea/u-textarea",
+		"u-datetime-picker": "uview-plus/components/u-datetime-picker/u-datetime-picker",
+		"u-upload": "uview-plus/components/u-upload/u-upload",
+		"u-divider": "uview-plus/components/u-divider/u-divider",
+		"u-tabs": "uview-plus/components/u-tabs/u-tabs",
+		"echarts": "src/components/echarts/echarts"
+	},
+	"uniIdRouter": {},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "",
+				"query": ""
+			}
+		]
+	}
+}

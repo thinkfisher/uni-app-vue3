@@ -1,0 +1,7 @@
+// 导入uni.scss变量
+@import '../uni.scss';
+
+// 确保所有组件都能访问到这些变量
+:root {
+  --u-border-color: #{$u-border-color};
+}
